@@ -1,0 +1,14 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<h1>这里是很多页面公共部分，jspf可以直接读取xml文件所以可以 引入公共部分如下</h1>
+<ol>
+  <li> jsp 的自定义标签 taglib 也可以用   </li>
+  <li> 公共css </li>
+  <li>公共js</li>
+  <li>等页面公用部分</li>
+</ol>
+
+                 头部：下面是表达式语言
+    	${1+7}
+    	
+    	<% out.println("头部 -这个是java标本输出的内容"); %>
+
